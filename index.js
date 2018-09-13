@@ -55,7 +55,7 @@ module.exports = function boxOpener(dispatch){
 	
 	function load()
 	{
-		hook('S_INVEN', 14, event =>{
+		hook('S_INVEN', 16, event =>{
 			if(!enabled) return
 			
 			isLooting = false; // S_INVEN comes only after all S_SYSTEM_MESSAGE_LOOT_ITEM
