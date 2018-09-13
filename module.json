@@ -1,4 +1,5 @@
 {
-  "servers": ["https://raw.githubusercontent.com/Owyn/generic-box-opener-item-user/master/"],
-  "supportUrl": "https://github.com/Owyn/generic-box-opener-item-user/issues"
+	"disableAutoUpdate": false,
+	"servers": ["https://raw.githubusercontent.com/Yuyuko-sama/generic-box-opener-item-user/master/"],
+	"supportUrl": "https://github.com/Yuyuko-sama/generic-box-opener-item-user/issues"
 }

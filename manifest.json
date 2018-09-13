@@ -1,16 +1,16 @@
 {
 	"files": {
-		"index.js": "675f07f248ff6a251f0817ea39b410970f1f915ead4946f887c3ebd1c6ed7ea3",
-		"module.json": "1cd5f735938765192c569a381cca2d3d7df8b43808dcbd8c3362667f7f1051bb",
-		"README.md": "4a82b827288a9d7f34cc1de1ff869ca1371d9a0144b960cf33f5501a56ff73b4"
+		"README.md": "4a82b827288a9d7f34cc1de1ff869ca1371d9a0144b960cf33f5501a56ff73b4",
+		"index.js": "636a20cd6755db910e7baa78b8c9aa36543d2c10b9d3a53564e953323a52f636",
+		"module.json": "cfe111ed101b9a176f50bf888bd5b5865150456ee1590ed759ba7ebd69575076"
 	},
 	"defs": {
-		"C_PLAYER_LOCATION": 4,
-		"C_USE_ITEM": 3,
-		"S_GACHA_START": 1,
 		"C_GACHA_TRY": 1,
+		"C_PLAYER_LOCATION": [4,5],
+		"C_USE_ITEM": 3,
 		"S_GACHA_END": 1,
-		"S_INVEN": 12,
+		"S_GACHA_START": 1,
+		"S_INVEN": [12,14],
 		"S_SYSTEM_MESSAGE": 1,
 		"S_SYSTEM_MESSAGE_LOOT_ITEM": 1
 	}

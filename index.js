@@ -51,11 +51,11 @@ module.exports = function boxOpener(dispatch){
 		}
     });
 	
-	dispatch.hook('C_PLAYER_LOCATION', 4, event =>{location = event});
+	dispatch.hook('C_PLAYER_LOCATION', 5, event =>{location = event});
 	
 	function load()
 	{
-		hook('S_INVEN', 12, event =>{
+		hook('S_INVEN', 14, event =>{
 			if(!enabled) return
 			
 			isLooting = false; // S_INVEN comes only after all S_SYSTEM_MESSAGE_LOOT_ITEM
