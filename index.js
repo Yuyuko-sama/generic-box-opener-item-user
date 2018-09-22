@@ -14,9 +14,9 @@ module.exports = function boxOpener(mod){
 		statOpened = 0,
 		statUsed = 0,
 		statStarted = null,
-		scanning = false;
+		scanning = false,
 		boxId = 166901, // MWA box as default.
-		inventory = null;
+		inventory = null
 		
 	mod.command.add('box', () => {
 		if(!enabled && !scanning)
