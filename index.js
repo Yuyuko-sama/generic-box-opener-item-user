@@ -125,7 +125,7 @@ module.exports = function boxOpener(mod){
 		});
 		
 		hook('S_SYSTEM_MESSAGE', 1, event => {
-			const msg = dispatch.base.parseSystemMessage(event.message);
+			const msg = mod.base.parseSystemMessage(event.message);
 			if(msg.id === 'SMT_ITEM_MIX_NEED_METERIAL' || msg.id === 'SMT_CANT_CONVERT_NOW')
 			{
 				mod.command.message("Box can not be opened anymore, stopping");
